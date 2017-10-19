@@ -1,0 +1,35 @@
+[
+  {
+    "id":"1",
+    "name":"Casio/卡西欧 EX-TR350",
+    "image":"./Content/images/yi.jpg",
+    "addr":"北京",
+    "state":false,
+    "num":"1",
+    "price":"1500",
+    "size":"m",
+    "color":"red"
+  },
+  {
+    "id":"2",
+    "name":"Canon/佳能 PowerShot SX50 HS",
+    "image":"./Content/images/er.jpg",
+    "addr":"北京",
+    "state":false,
+    "num":"1",
+    "price":"2000",
+    "size":"s",
+    "color":"blue"
+  },
+  {
+    "id":"3",
+    "name":"Sony/索尼 DSC-WX300",
+    "image":"./Content/images/san.jpg",
+    "addr":"北京",
+    "state":true,
+    "num":"1",
+    "price":"1500",
+    "size":"m",
+    "color":"red"
+  }
+]
