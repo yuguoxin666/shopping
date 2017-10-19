@@ -3,6 +3,12 @@
  */
 app.directive("shoppingSnacks",function(){
    return {
-       templateUrl:"App/View/temp/shoppingsnacks.html"
+       restrict: "EA",
+       scope:{
+           item:"=item",
+           index:"@index"
+       },
+       templateUrl:"App/View/temp/shoppingsnacks.html",
+       controller:"snacksController"
    }
 });

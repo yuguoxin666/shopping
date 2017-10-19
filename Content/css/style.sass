@@ -14,18 +14,76 @@ header
 section
   flex: 1
   overflow-y: scroll
-  li
-    border: 1px solid #ccc
-    line-height: 80px
-    height: 80px
-    img
-      width: 100%
-      height: 80px
-    .minus,.plus
-      width: 20px
-    .number
-      width: 20px
+  .items
+    width: 100%
+    height: 120px
+    display: flex
+    align-items: center
+    .chose
+      display: inline-block
+      width: 10px
+      height: 10px
+      border-radius: 10px
+      border: 1px solid #ccc
+      margin: 0 5px
+    .on
+      background: #ff4136
+    .pic
+      width: 100px
+      height: 100px
+      img
+        width: 100%
+        height: 100%
+    .con
+      display: flex
+      height: 100px
+      flex-direction: column
+      margin-left: 10px
+      justify-content: space-between
+      flex: 1
+      h1
+        display: flex
+        font-size: 16px
+        justify-content: space-between
+        .del
+          display: inline-block
+          background: #ccc
+          width: 15px
+          height: 15px
+          border-radius: 15px
+          text-align: center
+          line-height: 15px
+          color: #fff
+          margin-right: 10px
+      h3
+        display: flex
+        justify-content: space-between
+        .price
+          color: orange
+        p
+          margin-right: 10px
+          span
+            display: inline-block
+            width: 20px
+            height: 20px
+            text-align: center
+            line-height: 20px
+            border: 1px solid #ccc
+            font-size: 14px
+
 footer
   height: .4rem
   line-height: .4rem
   background: #f3f3f3
+  ul
+    .col-xs-4
+      padding: 0
+  .all
+    display: inline-block
+    width: 10px
+    height: 10px
+    border-radius: 10px
+    border: 1px solid #ccc
+    margin: 0 5px
+  .on
+    background: #ff4136

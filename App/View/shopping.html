@@ -1,24 +1,25 @@
 <header class="header text-center">
     <h1 class="f20">购物车</h1>
 </header>
-<section class="content" ng-controller="snackController">
+<section class="content">
     <shopping-snacks
             ng-repeat="item in datas"
+            item="item"
             index="{{$index}}"></shopping-snacks>
 </section>
 <footer class="footer">
     <ul>
-        <li class="col-xs-2">
+        <li class="col-xs-4">
             <span id="itemChecked"
-                  class="chose"
-                  ng-class="{on:item.state}"
-                  ng-click="itemChecked(index)"></span>
+                  class="all"
+                  ng-class="{on:flag}"
+                  ng-click="itemCheckedAll()"></span>
             全选
         </li>
-        <li class="col-xs-6">
-            合计：￥<span>0.00</span>
+        <li class="col-xs-5">
+            合计：￥<span>{{pr}}</span>
         </li>
-        <li class="col-xs-4">
+        <li class="col-xs-3">
             结算
         </li>
     </ul>

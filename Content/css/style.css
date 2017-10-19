@@ -15,208 +15,77 @@ header {
 section {
   flex: 1;
   overflow-y: scroll; }
-  section li {
-    border: 1px solid #ccc;
-    line-height: 80px;
-    height: 80px; }
-    section li img {
-      width: 100%;
-      height: 80px; }
-    section li .minus, section li .plus {
-      width: 20px; }
-    section li .number {
-      width: 20px; }
-.container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  display: -webkit-flex;
-  -webkit-flex-direction: column;
-  background: #f4f4f4;
-}
-
-.content {
-  flex: 1;
-  position: relative;
-}
-
-.login {
-  width: 100%;
-  height: 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  background: #fff;
-}
-
-.login p {
-  color: #a3a3a3;
-}
-
-.login button {
-  width: 20%;
-  height: 20px;
-  border: none;
-  outline: none;
-  background: #9a0000;
-  color: #fff;
-  text-align: center;
-  line-height: 20px;
-}
-
-main {
-  width: 100%;
-  flex: auto;
-  overflow-y: auto;
-  margin-top: 20px;
-}
-
-main .wrap {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.items {
-  width: 100%;
-  height: 120px;
-  display: flex;
-  align-items: center;
-}
-
-.items .chose {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 10px;
-  border: 1px solid #ccc;
-  margin: 0 5px;
-}
-
-.items .on {
-  background: orange;
-}
-
-.items .pic {
-  width: 100px;
-  height: 100px;
-}
-
-.items .pic img {
-  width: 100%;
-  height: 100%;
-}
-
-.items .con {
-  display: flex;
-  height: 100px;
-  flex-direction: column;
-  margin-left: 10px;
-  justify-content: space-between;
-  flex: 1;
-}
-
-.items .con h1 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.items .con h1 .bicname {
-  font-size: 16px;
-}
-
-.items .con h1 .del {
-  display: inline-block;
-  background: #ccc;
-  width: 15px;
-  height: 15px;
-  border-radius: 15px;
-  text-align: center;
-  line-height: 15px;
-  color: #fff;
-  margin-right: 10px;
-  font-size: 14px;
-}
-
-.items .con h2 .num {
-  margin-left: 10px;
-}
-
-.items .con h3 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.items .con h3 .price {
-  color: red;
-}
-
-.items .con h3 p {
-  margin-right: 10px;
-}
-
-.items .con h3 p .add, .items .con h3 p .reduce, .items .con h3 p .count {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  line-height: 20px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-}
-
-.all {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 10px;
-  border: 1px solid #ccc;
-}
-
-.allon {
-  background: orange;
-}
-
-.cho {
-  height: 30px;
-  position: absolute;
-
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #fff;
-  border-top: 1px solid #ccc;
-}
-
-.cho .money {
-  color: red;
-}
-
-.cho h1 {
-  margin-left: 15px;
-}
-
-.cho h1 .all {
-  margin-right: 5px;
-}
-
-.cho h3 {
-  width: 20%;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  background: red;
-  color: #fff;
-}
+  section .items {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center; }
+    section .items .chose {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      margin: 0 5px; }
+    section .items .on {
+      background: #ff4136; }
+    section .items .pic {
+      width: 100px;
+      height: 100px; }
+      section .items .pic img {
+        width: 100%;
+        height: 100%; }
+    section .items .con {
+      display: flex;
+      height: 100px;
+      flex-direction: column;
+      margin-left: 10px;
+      justify-content: space-between;
+      flex: 1; }
+      section .items .con h1 {
+        display: flex;
+        font-size: 16px;
+        justify-content: space-between; }
+        section .items .con h1 .del {
+          display: inline-block;
+          background: #ccc;
+          width: 15px;
+          height: 15px;
+          border-radius: 15px;
+          text-align: center;
+          line-height: 15px;
+          color: #fff;
+          margin-right: 10px; }
+      section .items .con h3 {
+        display: flex;
+        justify-content: space-between; }
+        section .items .con h3 .price {
+          color: orange; }
+        section .items .con h3 p {
+          margin-right: 10px; }
+          section .items .con h3 p span {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            border: 1px solid #ccc;
+            font-size: 14px; }
 
 footer {
   height: 0.4rem;
   line-height: 0.4rem;
   background: #f3f3f3; }
+  footer ul .col-xs-4 {
+    padding: 0; }
+  footer .all {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin: 0 5px; }
+  footer .on {
+    background: #ff4136; }
 
 /*# sourceMappingURL=style.css.map */

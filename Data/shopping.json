@@ -3,24 +3,24 @@
     "id": "1",
     "name": "糖果",
     "image": "./Content/img/snack-2.jpg",
-    "state": true,
-    "num": "1",
-    "price": "5"
+    "state": false,
+    "num": 1,
+    "price": 5
   },
   {
     "id": "1",
     "name": "豆干",
     "image": "./Content/img/snack-4.jpg",
-    "state": true,
-    "num": "1",
-    "price": "2"
+    "state": false,
+    "num": 1,
+    "price": 2
   },
   {
     "id": "1",
     "name": "溜溜梅",
     "image": "./Content/img/snack-6.jpg",
     "state": true,
-    "num": "1",
-    "price": "8"
+    "num": 1,
+    "price": 8
   }
 ]
